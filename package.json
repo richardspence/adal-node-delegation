@@ -1,0 +1,40 @@
+{
+  "name": "adal-node-delegation",
+  "version": "1.0.0",
+  "description": "Simple service for acquiring a downstream resource from Active Directory",
+  "main": "dist/index.js",
+  "typings":"dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardspence/adal-node-delegation.git"
+  },
+  "keywords": [
+    "adal",
+    "node",
+    "deleation",
+    "active",
+    "directory",
+    "azure"
+  ],
+  "author": "Richard Spence",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardspence/adal-node-delegation/issues"
+  },
+  "readme": "readme.md",
+  "homepage": "https://github.com/richardspence/adal-node-delegation#readme",
+  "dependencies": {
+    "es6-promise": "^3.2.1",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-task-loader": "1.2.3",
+    "gulp-typescript": "^2.13.6",
+    "merge2": "^1.0.2"
+  }
+}

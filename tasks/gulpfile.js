@@ -1,0 +1,1 @@
+require('gulp-task-loader')({exts: ['.js'], dir: './tasks/gulp-tasks'});
