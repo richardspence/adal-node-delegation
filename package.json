@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple service for acquiring a downstream resource from Active Directory",
   "main": "dist/index.js",
-  "typings":"dist/index.d.ts",
+  "typings":"dist/adal-node.delegation.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
